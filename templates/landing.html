@@ -1,0 +1,16 @@
+<h1>This is the Landing Page</h1>
+<br/>
+<a href="{% url 'about' %}">About the Website</a>
+<ul> <p> We will do a lot of things here</p>
+  <li> Wordcount </li>
+  <li> Word Usage Count </li>
+</ul>
+
+{{India}}
+<br />
+<br />
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br />
+  <input type="submit" value="Count!"></input>
+</form>
